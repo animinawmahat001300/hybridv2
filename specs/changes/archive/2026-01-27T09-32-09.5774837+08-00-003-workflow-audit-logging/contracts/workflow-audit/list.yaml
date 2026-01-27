@@ -1,0 +1,79 @@
+openapi: 3.0.3
+info:
+  title: Workflow audit - List entries
+  version: 1.0.0
+paths:
+  /api/workflow-audit:
+    get:
+      summary: List workflow audit entries
+      operationId: listWorkflowAuditEntries
+      parameters:
+        - in: query
+          name: change_id
+          schema:
+            type: string
+          required: false
+          description: Filter by change identifier
+        - in: query
+          name: outcome
+          schema:
+            type: string
+            enum:
+              - success
+              - failure
+          required: false
+          description: Filter by outcome
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 500
+          required: false
+          description: Maximum number of entries to return
+      responses:
+        "200":
+          description: Audit entries returned
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WorkflowAuditEntry"
+        "500":
+          description: Failed to read audit entries
+components:
+  schemas:
+    WorkflowAuditEntry:
+      type: object
+      required:
+        - timestamp
+        - script_name
+        - action
+        - outcome
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        script_name:
+          type: string
+        action:
+          type: string
+        change_id:
+          type: string
+          nullable: true
+        outcome:
+          type: string
+          enum:
+            - success
+            - failure
+        error_summary:
+          type: string
+          nullable: true
+        run_id:
+          type: string
+          nullable: true
+        duration_ms:
+          type: integer
+          minimum: 0
+          nullable: true

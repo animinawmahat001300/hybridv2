@@ -1,0 +1,86 @@
+openapi: 3.0.3
+info:
+  title: Workflow - Run Script
+  version: 1.0.0
+paths:
+  /api/workflow/run:
+    post:
+      summary: Execute a workflow run
+      description: Executes a workflow script and returns a concise or verbose summary.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RunRequest"
+      responses:
+        "200":
+          description: Workflow run completed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RunSummary"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Workflow execution failed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    RunRequest:
+      type: object
+      required:
+        - change_id
+      properties:
+        change_id:
+          type: string
+          example: 004-gitless-workflow-resilience
+        verbose:
+          type: boolean
+          default: false
+    RunSummary:
+      type: object
+      required:
+        - status
+        - change_id
+        - verbosity_mode
+      properties:
+        status:
+          type: string
+          enum: [success, failure]
+        change_id:
+          type: string
+        verbosity_mode:
+          type: string
+          enum: [summary, verbose]
+        phase_summaries:
+          type: array
+          items:
+            type: string
+        warnings:
+          type: array
+          items:
+            type: string
+        duration_ms:
+          type: integer
+          minimum: 0
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        details:
+          type: string
+          nullable: true

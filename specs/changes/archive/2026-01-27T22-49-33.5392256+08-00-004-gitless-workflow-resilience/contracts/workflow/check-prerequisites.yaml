@@ -1,0 +1,68 @@
+openapi: 3.0.3
+info:
+  title: Workflow - Check Prerequisites
+  version: 1.0.0
+paths:
+  /api/workflow/check-prerequisites:
+    get:
+      summary: Resolve change ID and workspace readiness
+      description: Returns resolved change ID, workspace paths, and Git availability.
+      responses:
+        "200":
+          description: Prerequisites resolved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PrerequisiteResult"
+        "400":
+          description: Invalid or missing change ID
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Failed to resolve workspace
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    PrerequisiteResult:
+      type: object
+      required:
+        - status
+        - change_id
+        - repo_root
+        - feature_spec
+        - git_available
+      properties:
+        status:
+          type: string
+          enum: [success]
+        change_id:
+          type: string
+          example: 004-gitless-workflow-resilience
+        repo_root:
+          type: string
+        feature_spec:
+          type: string
+        git_available:
+          type: boolean
+        warnings:
+          type: array
+          items:
+            type: string
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        details:
+          type: string
+          nullable: true

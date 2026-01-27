@@ -1,0 +1,131 @@
+openapi: 3.0.3
+info:
+  title: Workflow Audit Log - List Entries
+  version: 1.0.0
+paths:
+  /api/workflow-audit:
+    get:
+      summary: List audit log entries
+      description: Retrieve workflow audit entries filtered by change ID or outcome.
+      parameters:
+        - name: change_id
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter entries by change ID.
+        - name: outcome
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [success, failure]
+          description: Filter entries by outcome.
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 500
+            default: 100
+          description: Maximum number of entries to return.
+        - name: cursor
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Pagination cursor for subsequent reads.
+      responses:
+        "200":
+          description: Audit entries retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuditLogListResponse"
+        "400":
+          description: Invalid query parameters
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Failed to read audit log
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    AuditLogEntry:
+      type: object
+      required:
+        - schema_version
+        - timestamp
+        - script_name
+        - action
+        - outcome
+      properties:
+        schema_version:
+          type: integer
+          example: 1
+        timestamp:
+          type: string
+          format: date-time
+        script_name:
+          type: string
+          maxLength: 120
+        action:
+          type: string
+          enum: [create, update, validate, archive, system]
+        change_id:
+          type: string
+          nullable: true
+        outcome:
+          type: string
+          enum: [success, failure]
+        error_summary:
+          type: string
+          nullable: true
+          maxLength: 500
+        error_type:
+          type: string
+          nullable: true
+          maxLength: 120
+        duration_ms:
+          type: integer
+          nullable: true
+          minimum: 0
+        execution_id:
+          type: string
+          nullable: true
+          format: uuid
+        host:
+          type: string
+          nullable: true
+          maxLength: 120
+    AuditLogListResponse:
+      type: object
+      required:
+        - entries
+      properties:
+        entries:
+          type: array
+          items:
+            $ref: "#/components/schemas/AuditLogEntry"
+        next_cursor:
+          type: string
+          nullable: true
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        details:
+          type: string
+          nullable: true

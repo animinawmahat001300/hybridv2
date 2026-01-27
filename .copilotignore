@@ -1,0 +1,53 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Security & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary/Cache files
+*.orig
+*.tmp
+.cache/
+.turbo/
+.eslintcache
+
+# GitHub Copilot & AI metadata
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE - VS Code & Copilot session data
+.vscode/
+*.code-workspace
+**/node_modules/**
+**/jspm_packages/**
+**/dist/**
+**/build/**
+**/.next/**
+**/out/**
+**/.env/***
+**/*.pem/**
+**/*.key/**
+**/*.orig/**
+**/*.tmp/**
+**/.cache/**
+**/.turbo/**
+**/.eslintcache/**
+**/Copilot-Processing.md": true,
+**/.DS_Store/**
+**/Thumbs.db/**
+**/.vscode/**
+**/workspaceStorage/**
+**/*.code-workspace": true,
+**/.agent_work/**": true

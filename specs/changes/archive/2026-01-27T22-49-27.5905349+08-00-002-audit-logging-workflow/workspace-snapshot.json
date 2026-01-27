@@ -1,0 +1,132 @@
+{
+  "workspace_root": "C:\\Users\\raze0\\Documents\\hybridv2",
+  "git_available": true,
+  "notes": null,
+  "git_status": {
+    "branch": "004-gitless-workflow-resilience",
+    "is_dirty": true,
+    "status_summary": "23 file(s) changed"
+  },
+  "change_id": "002-audit-logging-workflow",
+  "modified_files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "size_bytes": 4235,
+      "last_write_time": "2026-01-27T13:50:49.9819971Z"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 516,
+      "last_write_time": "2026-01-27T13:16:30.1047850Z"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "size_bytes": 14362,
+      "last_write_time": "2026-01-27T14:08:42.4403495Z"
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/checklists/checklist.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/data-model.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/plan.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/proposal.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/quickstart.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/research.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/spec.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/tasks.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/taskstoissues.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/changes/001-agent-seq-artifacts/workflow.md",
+      "size_bytes": null,
+      "last_write_time": null
+    },
+    {
+      "path": "specs/scripts/archive-feature.ps1",
+      "size_bytes": 30244,
+      "last_write_time": "2026-01-27T14:48:15.8339527Z"
+    },
+    {
+      "path": "specs/scripts/common.ps1",
+      "size_bytes": 96201,
+      "last_write_time": "2026-01-27T14:40:42.2400380Z"
+    },
+    {
+      "path": "specs/scripts/list-features.ps1",
+      "size_bytes": 11137,
+      "last_write_time": "2026-01-27T14:45:50.0372827Z"
+    }
+  ],
+  "captured_at": "2026-01-27T22:49:27.5895608+08:00",
+  "schema_version": 1,
+  "untracked_files": [
+    {
+      "path": ".copilotignore",
+      "size_bytes": 709,
+      "last_write_time": "2026-01-27T13:23:08.6825396Z"
+    },
+    {
+      "path": "specs/changes/003-workflow-audit-logging/",
+      "size_bytes": 1,
+      "last_write_time": "2026-01-27T01:32:58.6364589Z"
+    },
+    {
+      "path": "specs/changes/004-gitless-workflow-resilience/",
+      "size_bytes": 1,
+      "last_write_time": "2026-01-27T14:48:59.9281612Z"
+    },
+    {
+      "path": "specs/changes/archive/2026-01-27T22-47-37.1955787+08-00-004-gitless-workflow-resilience/",
+      "size_bytes": 1,
+      "last_write_time": "2026-01-27T14:47:39.7178422Z"
+    },
+    {
+      "path": "specs/changes/archive/2026-01-27T22-48-43.5664722+08-00-004-gitless-workflow-resilience/",
+      "size_bytes": 1,
+      "last_write_time": "2026-01-27T14:48:45.9658466Z"
+    },
+    {
+      "path": "specs/changes/archive/2026-01-27T22-49-24.6867113+08-00-001-agent-seq-artifacts/",
+      "size_bytes": 1,
+      "last_write_time": "2026-01-27T14:49:27.0454345Z"
+    },
+    {
+      "path": "specs/logs/workflow-audit.jsonl",
+      "size_bytes": 29183,
+      "last_write_time": "2026-01-27T14:49:27.2434221Z"
+    }
+  ]
+}

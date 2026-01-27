@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Security & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary/Cache files
+*.orig
+*.tmp
+.cache/
+.turbo/
+.eslintcache
+
+# GitHub Copilot & AI metadata
+Copilot-Processing.md
+.copilot-instructions.md  # Keep this if you WANT shared instructions; ignore if personal
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE - VS Code & Copilot session data
+.vscode/
+workspaceStorage/
+GitHub.copilot-chat/
+*.code-workspace

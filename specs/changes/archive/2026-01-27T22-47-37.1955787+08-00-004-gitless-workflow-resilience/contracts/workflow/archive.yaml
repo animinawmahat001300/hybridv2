@@ -1,0 +1,81 @@
+openapi: 3.0.3
+info:
+  title: Workflow - Archive Change
+  version: 1.0.0
+paths:
+  /api/workflow/archive:
+    post:
+      summary: Archive a change and capture workspace snapshot
+      description: Archives a change folder and writes a workspace snapshot when uncommitted changes exist.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ArchiveRequest"
+      responses:
+        "201":
+          description: Archive completed with snapshot
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ArchiveResult"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Archive failed or snapshot write error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    ArchiveRequest:
+      type: object
+      required:
+        - change_id
+      properties:
+        change_id:
+          type: string
+          example: 004-gitless-workflow-resilience
+    ArchiveResult:
+      type: object
+      required:
+        - status
+        - change_id
+        - archive_dir
+        - snapshot_path
+        - snapshot_captured
+      properties:
+        status:
+          type: string
+          enum: [archived]
+        change_id:
+          type: string
+        archive_dir:
+          type: string
+        snapshot_path:
+          type: string
+        snapshot_captured:
+          type: boolean
+        warnings:
+          type: array
+          items:
+            type: string
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        details:
+          type: string
+          nullable: true

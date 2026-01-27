@@ -1,0 +1,1262 @@
+[speckit] Reference Audit Report
+Repo Root: C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs
+Scanned Files: 43
+Reference Hits: 733
+Missing Hits: 550
+Missing Unique: 176
+
+Missing referenced paths (grouped):
+- specs/changes/ (70 occurrence(s))
+  - changes\2028-test-feature-script-validation\plan.md:10 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+  - changes\2028-test-feature-script-validation\plan.md:177 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+  - changes\codebase-consistency-todo.md:189 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+  - changes\codebase-consistency-todo.md:190 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+  - changes\codebase-consistency-todo.md:191 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+- specs/memory/constitution.md (20 occurrence(s))
+  - project.md:43 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+  - README.md:12 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+  - README.md:103 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+  - scripts\common.ps1:19 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+  - scripts\common.ps1:20 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+- validate.ps1 (16 occurrence(s))
+  - changes\codebase-consistency-todo.md:138 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+  - changes\codebase-consistency-todo.md:243 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+  - changes\codebase-consistency-todo.md:297 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+  - changes\codebase-consistency-todo.md:600 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+  - changes\codebase-consistency-todo.md:702 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+- specs/project.md (16 occurrence(s))
+  - scripts\common.ps1:472 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+  - scripts\populate-project.ps1:22 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+  - scripts\populate-project.ps1:73 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+  - scripts\populate-project.ps1:108 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+  - scripts\update-agent-context.ps1:14 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+- common.ps1 (13 occurrence(s))
+  - changes\codebase-consistency-todo.md:379 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+  - changes\codebase-consistency-todo.md:717 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+  - changes\codebase-consistency-todo.md:744 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+  - changes\markdown-normalization-todo.md:99 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+  - changes\pattern-inconsistency-report.md:65 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+- update-agent-context.ps1 (12 occurrence(s))
+  - changes\codebase-consistency-todo.md:371 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+  - changes\codebase-consistency-todo.md:726 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+  - changes\pattern-inconsistency-report.md:70 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+  - changes\pattern-inconsistency-report.md:71 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+  - changes\pattern-inconsistency-report.md:72 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+- specs/scripts/validate.ps1 (12 occurrence(s))
+  - changes\codebase-consistency-todo.md:67 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+  - changes\codebase-consistency-todo.md:73 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+  - changes\codebase-consistency-todo.md:78 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+  - changes\codebase-consistency-todo.md:82 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+  - changes\codebase-consistency-todo.md:259 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+- specs/scripts/update-agent-context.ps1 (11 occurrence(s))
+  - changes\codebase-consistency-todo.md:86 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+  - changes\codebase-consistency-todo.md:92 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+  - changes\codebase-consistency-todo.md:96 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+  - changes\codebase-consistency-todo.md:116 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+  - changes\codebase-consistency-todo.md:122 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+- proposal.md (11 occurrence(s))
+  - scripts\archive-feature.ps1:584 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+  - scripts\archive-feature.ps1:590 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+  - scripts\archive-feature.ps1:591 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+  - scripts\common.ps1:377 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+  - scripts\generate-proposal.ps1:4 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+- speckit.tasks.agent.md (11 occurrence(s))
+  - changes\codebase-consistency-todo.md:440 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+  - changes\codebase-consistency-todo.md:442 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:88 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:112 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:128 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+- .github/agents/ (11 occurrence(s))
+  - changes\codebase-consistency-todo.md:200 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+  - changes\codebase-consistency-todo.md:239 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+  - changes\codebase-consistency-todo.md:267 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+  - changes\codebase-consistency-todo.md:286 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+  - changes\pattern-inconsistency-report.md:236 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+- .github/agents (10 occurrence(s))
+  - changes\codebase-consistency-todo.md:493 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+  - scripts\manual\audit-references-report.ps1:158 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+  - scripts\manual\audit-references-report.ps1:159 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+  - scripts\manual\audit-references.ps1:67 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+  - scripts\manual\audit-references.ps1:408 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+- task.md (10 occurrence(s))
+  - changes\codebase-consistency-todo.md:30 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+  - changes\codebase-consistency-todo.md:442 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+  - changes\codebase-consistency-todo.md:443 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+  - changes\markdown-normalization-todo.md:87 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+  - changes\markdown-normalization-todo.md:107 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+- docs/speckit/ARCHITECTURE_OVERVIEW.md (9 occurrence(s))
+  - scripts\check-prerequisites.ps1:79 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+  - scripts\list-features.ps1:93 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+  - scripts\list-features.ps1:120 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+  - scripts\manual\audit-references-report.ps1:103 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+  - scripts\manual\audit-references.ps1:112 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+- markdownGuide.md (8 occurrence(s))
+  - changes\markdown-normalization-todo.md:35 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+  - changes\markdown-normalization-todo.md:144 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+  - changes\markdown-normalization-todo.md:146 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+  - changes\markdown-normalization-todo.md:167 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+  - changes\markdown-normalization-todo.md:172 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+- specs/scripts/create-new-feature.ps1 (8 occurrence(s))
+  - changes\codebase-consistency-todo.md:432 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+  - changes\pattern-inconsistency-report.md:103 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+  - changes\README.md:112 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+  - changes\README.md:119 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+  - README.md:16 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+- specs/templates/ (7 occurrence(s))
+  - changes\codebase-consistency-todo.md:175 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+  - changes\codebase-consistency-todo.md:199 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+  - changes\codebase-consistency-todo.md:234 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+  - changes\pattern-inconsistency-report.md:235 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+  - scripts\manual\validate-paths.ps1:8 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+- specs/scripts/common.ps1 (7 occurrence(s))
+  - changes\codebase-consistency-todo.md:264 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+  - changes\codebase-consistency-todo.md:273 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+  - changes\codebase-consistency-todo.md:277 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+  - changes\codebase-consistency-todo.md:422 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+  - changes\pattern-inconsistency-report.md:101 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+- docs/speckit/architecture/ADR-0002-file-based-state.md (7 occurrence(s))
+  - scripts\check-prerequisites.ps1:80 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+  - scripts\list-features.ps1:94 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+  - scripts\manual\audit-references-report.ps1:106 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+  - scripts\manual\audit-references.ps1:115 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+  - scripts\manual\README.md:226 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+- specs/scripts/ (6 occurrence(s))
+  - changes\codebase-consistency-todo.md:287 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+  - scripts\common.ps1:19 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+  - scripts\common.ps1:39 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+  - scripts\manual\validate-paths.ps1:8 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+  - scripts\README.md:196 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+- speckit.implement.agent.md (6 occurrence(s))
+  - changes\markdown-normalization-todo.md:50 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:89 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:116 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:201 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+  - scripts\manual\validate-paths.ps1:70 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.implement.agent.md
+- specs/001-feature (6 occurrence(s))
+  - scripts\generate-deltas.ps1:29 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+  - scripts\generate-deltas.ps1:33 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+  - scripts\generate-proposal.ps1:35 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+  - scripts\generate-proposal.ps1:39 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+  - scripts\generate-proposal.ps1:79 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+- .github\agents\task.md (6 occurrence(s))
+  - changes\markdown-normalization-todo.md:87 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+  - changes\markdown-normalization-todo.md:107 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+  - changes\markdown-normalization-todo.md:128 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+  - changes\markdown-normalization-todo.md:136 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+  - changes\markdown-normalization-todo.md:185 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+- specs/scripts/README.md (5 occurrence(s))
+  - changes\codebase-consistency-todo.md:169 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+  - changes\codebase-consistency-todo.md:457 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+  - changes\codebase-consistency-todo.md:524 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+  - scripts\manual\README.md:181 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+  - scripts\manual\README.md:224 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+- specs/scripts (5 occurrence(s))
+  - changes\codebase-consistency-todo.md:476 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+  - scripts\common.ps1:3 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+  - scripts\manual\audit-references-report.ps1:59 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+  - scripts\manual\README.md:146 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+  - scripts\validate.ps1:1045 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+- speckit.checklist.agent.md (4 occurrence(s))
+  - changes\markdown-normalization-todo.md:92 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.checklist.agent.md
+  - scripts\manual\validate-paths.ps1:67 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.checklist.agent.md
+  - scripts\README.md:101 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.checklist.agent.md
+  - templates\agent-file-template.md:105 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.checklist.agent.md
+- validate-paths.ps1 (4 occurrence(s))
+  - changes\pattern-inconsistency-report.md:125 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate-paths.ps1
+  - scripts\README.md:114 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+  - scripts\README.md:120 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+  - scripts\README.md:169 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+- speckit.specify.agent.md (4 occurrence(s))
+  - changes\markdown-normalization-todo.md:91 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.specify.agent.md
+  - scripts\manual\validate-paths.ps1:63 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.specify.agent.md
+  - scripts\README.md:102 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.specify.agent.md
+  - templates\agent-file-template.md:101 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.specify.agent.md
+- specs/templates (4 occurrence(s))
+  - scripts\setup-plan.ps1:147 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+  - scripts\validate.ps1:1416 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+  - scripts\validate.ps1:1431 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+  - scripts\validate.ps1:1470 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+- .github\agents\speckit.implement.agent.md (4 occurrence(s))
+  - changes\markdown-normalization-todo.md:50 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:89 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:116 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+  - changes\markdown-normalization-todo.md:201 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+- specs/scripts/list-features.ps1 (4 occurrence(s))
+  - changes\README.md:94 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+  - changes\README.md:125 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+  - README.md:21 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+  - scripts\list-features.ps1:73 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+- specs/memory (4 occurrence(s))
+  - scripts\check-prerequisites.ps1:114 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+  - scripts\validate.ps1:1414 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+  - scripts\validate.ps1:1431 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+  - scripts\validate.ps1:1468 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+- specs/changes/001-feature/spec.md (4 occurrence(s))
+  - scripts\validate.ps1:14 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+  - scripts\validate.ps1:41 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+  - scripts\validate.ps1:88 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+  - scripts\validate.ps1:119 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+- copilot-instructions.md (4 occurrence(s))
+  - changes\markdown-normalization-todo.md:55 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+  - changes\markdown-normalization-todo.md:61 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+  - changes\pattern-inconsistency-report.md:329 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+  - scripts\update-agent-context.ps1:165 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\copilot-instructions.md
+- setup-document.ps1 (4 occurrence(s))
+  - scripts\common.ps1:385 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+  - scripts\common.ps1:624 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+  - scripts\README.md:103 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+  - scripts\update-agent-context.ps1:154 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+- .github\agents\speckit.tasks.agent.md (4 occurrence(s))
+  - changes\markdown-normalization-todo.md:88 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:112 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:185 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+  - changes\markdown-normalization-todo.md:202 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+- speckit.archive.agent.md (3 occurrence(s))
+  - scripts\manual\validate-paths.ps1:71 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.archive.agent.md
+  - scripts\README.md:105 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.archive.agent.md
+  - templates\agent-file-template.md:109 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.archive.agent.md
+- .github/agents/speckit.tasks.agent.md (3 occurrence(s))
+  - changes\codebase-consistency-todo.md:159 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+  - changes\codebase-consistency-todo.md:182 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+  - templates\tasks-template.md:53 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+- hybrid/specs/ (3 occurrence(s))
+  - scripts\manual\validate-paths.ps1:9 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+  - scripts\manual\validate-paths.ps1:48 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+  - scripts\README.md:125 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+- .github/copilot-instructions.md (3 occurrence(s))
+  - scripts\update-agent-context.ps1:21 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+  - scripts\update-agent-context.ps1:37 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+  - scripts\update-agent-context.ps1:118 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+- list-features.ps1 (3 occurrence(s))
+  - changes\codebase-consistency-todo.md:724 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\list-features.ps1
+  - changes\pattern-inconsistency-report.md:178 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\list-features.ps1
+  - templates\tasks-template.md:15 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\list-features.ps1
+- specs/scripts/check-prerequisites.ps1 (3 occurrence(s))
+  - changes\README.md:122 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+  - README.md:15 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+  - templates\agent-file-template.md:80 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+- specs/scripts/archive-feature.ps1 (3 occurrence(s))
+  - changes\README.md:131 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+  - README.md:20 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+  - README.md:65 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+- setup-plan.ps1 (3 occurrence(s))
+  - changes\codebase-consistency-todo.md:719 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\setup-plan.ps1
+  - changes\pattern-inconsistency-report.md:133 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\setup-plan.ps1
+  - changes\pattern-inconsistency-report.md:134 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\setup-plan.ps1
+- speckit.document.agent.md (3 occurrence(s))
+  - scripts\manual\validate-paths.ps1:72 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.document.agent.md
+  - scripts\README.md:103 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.document.agent.md
+  - templates\agent-file-template.md:107 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.document.agent.md
+- agent_formatting.md (3 occurrence(s))
+  - changes\markdown-normalization-todo.md:36 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+  - changes\markdown-normalization-todo.md:37 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+  - changes\markdown-normalization-todo.md:149 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+- specs/templates/plan-template.md (3 occurrence(s))
+  - README.md:25 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+  - scripts\setup-plan.ps1:55 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+  - templates\README.md:48 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+- audit-references.ps1 (3 occurrence(s))
+  - changes\pattern-inconsistency-report.md:78 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\audit-references.ps1
+  - scripts\README.md:167 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references.ps1
+  - scripts\README.md:168 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references.ps1
+- check-prerequisites.ps1 (3 occurrence(s))
+  - changes\codebase-consistency-todo.md:716 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\check-prerequisites.ps1
+  - templates\agent-file-template.md:84 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\check-prerequisites.ps1
+  - templates\tasks-template.md:15 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\check-prerequisites.ps1
+- feat/new-feature (2 occurrence(s))
+  - scripts\check-prerequisites.ps1:45 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\feat\new-feature
+  - scripts\setup-plan.ps1:42 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\feat\new-feature
+- specs/scripts/audit-references.ps1 (2 occurrence(s))
+  - README.md:113 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\audit-references.ps1
+  - scripts\manual\audit-references-report.ps1:348 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\audit-references.ps1
+- specs/changes/markdown-normalization (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:679 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\markdown-normalization
+  - scripts\README.md:78 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\markdown-normalization
+- merge-deltas.ps1 (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:718 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\merge-deltas.ps1
+  - changes\pattern-inconsistency-report.md:69 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\merge-deltas.ps1
+- specs/changes/pattern-inconsistency-report.md (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:6 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\pattern-inconsistency-report.md
+  - changes\codebase-consistency-todo.md:757 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\pattern-inconsistency-report.md
+- report.txt (2 occurrence(s))
+  - scripts\manual\audit-references-report.ps1:59 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\report.txt
+  - scripts\manual\README.md:146 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\report.txt
+- requirements.txt (2 occurrence(s))
+  - changes\2028-test-feature-script-validation\plan.md:314 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\2028-test-feature-script-validation\requirements.txt
+  - templates\plan-template.md:314 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\requirements.txt
+- specs/changes/archive/YYYY-MM-DD- (2 occurrence(s))
+  - scripts\archive-feature.ps1:13 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\YYYY-MM-DD-
+  - scripts\archive-feature.ps1:500 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\YYYY-MM-DD-
+- specs/changes/archive/ (2 occurrence(s))
+  - scripts\list-features.ps1:21 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\
+  - scripts\manual\audit-references.ps1:285 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\
+- run-gates.ps1 (2 occurrence(s))
+  - scripts\README.md:180 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\run-gates.ps1
+  - scripts\validate.ps1:1220 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\run-gates.ps1
+- speckit.analyze.agent.md (2 occurrence(s))
+  - scripts\manual\validate-paths.ps1:69 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.analyze.agent.md
+  - templates\agent-file-template.md:108 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.analyze.agent.md
+- speckit.clarify.agent.md (2 occurrence(s))
+  - scripts\manual\validate-paths.ps1:64 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.clarify.agent.md
+  - templates\agent-file-template.md:102 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.clarify.agent.md
+- speckit.taskstoissues.agent.md (2 occurrence(s))
+  - scripts\manual\validate-paths.ps1:68 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.taskstoissues.agent.md
+  - templates\agent-file-template.md:110 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.taskstoissues.agent.md
+- markdownForm.agent.md (2 occurrence(s))
+  - changes\markdown-normalization-todo.md:40 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownForm.agent.md
+  - changes\markdown-normalization-todo.md:200 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownForm.agent.md
+- Wrong workspace - .specify/ is in root, not hybrid (2 occurrence(s))
+  - scripts\manual\validate-paths.ps1:49 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Wrong workspace - .specify\ is in root, not hybrid
+  - scripts\manual\validate-paths.ps1:50 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Wrong workspace - .specify\ is in root, not hybrid
+- contracts/resource-list.yaml (2 occurrence(s))
+  - changes\2028-test-feature-script-validation\plan.md:114 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-list.yaml
+  - templates\plan-template.md:114 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-list.yaml
+- specs/templates/spec-template.md (2 occurrence(s))
+  - README.md:24 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\spec-template.md
+  - templates\README.md:45 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\spec-template.md
+- .github/agents/task.md (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:155 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+  - changes\codebase-consistency-todo.md:440 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+- V.md (2 occurrence(s))
+  - scripts\merge-deltas.ps1:190 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\V.md
+  - scripts\merge-deltas.ps1:191 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\V.md
+- .github\agents\markdownForm.agent.md (2 occurrence(s))
+  - changes\markdown-normalization-todo.md:40 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownForm.agent.md
+  - changes\markdown-normalization-todo.md:200 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownForm.agent.md
+- .github\agents\markdownGuide.md (2 occurrence(s))
+  - changes\markdown-normalization-todo.md:35 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownGuide.md
+  - changes\markdown-normalization-todo.md:146 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownGuide.md
+- try/catch (2 occurrence(s))
+  - changes\pattern-inconsistency-report.md:120 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\try\catch
+  - changes\pattern-inconsistency-report.md:141 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\try\catch
+- .github\copilot-instructions.md (2 occurrence(s))
+  - changes\markdown-normalization-todo.md:55 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+  - changes\markdown-normalization-todo.md:61 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+- .test.ts (2 occurrence(s))
+  - templates\tasks-template.md:206 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\.test.ts
+  - templates\tasks-template.md:207 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\.test.ts
+- specs\changes (2 occurrence(s))
+  - changes\pattern-inconsistency-report.md:302 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+  - scripts\common.ps1:205 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+- specs/templates/tasks-template.md (2 occurrence(s))
+  - README.md:26 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\tasks-template.md
+  - templates\tasks-template.md:54 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\tasks-template.md
+- deltas.md (2 occurrence(s))
+  - scripts\archive-feature.ps1:558 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\deltas.md
+  - scripts\archive-feature.ps1:576 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\deltas.md
+- specs/templates/proposal-template.example.md (2 occurrence(s))
+  - README.md:28 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\proposal-template.example.md
+  - scripts\generate-proposal.ps1:23 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\proposal-template.example.md
+- audit-references-report.ps1 (2 occurrence(s))
+  - changes\pattern-inconsistency-report.md:79 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\audit-references-report.ps1
+  - scripts\README.md:168 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references-report.ps1
+- specs/changes (2 occurrence(s))
+  - scripts\manual\audit-references.ps1:197 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+  - scripts\manual\audit-references.ps1:532 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+- specs/scripts/setup-plan.ps1 (2 occurrence(s))
+  - changes\pattern-inconsistency-report.md:102 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-plan.ps1
+  - README.md:17 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-plan.ps1
+- specs/scripts/merge-deltas.ps1 (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:102 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\merge-deltas.ps1
+  - changes\pattern-inconsistency-report.md:411 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\merge-deltas.ps1
+- copilot-instructions\.md (2 occurrence(s))
+  - changes\markdown-normalization-todo.md:243 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\copilot-instructions\.md
+  - changes\markdown-normalization-todo.md:248 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\copilot-instructions\.md
+- contracts/resource-get.yaml (2 occurrence(s))
+  - changes\2028-test-feature-script-validation\plan.md:116 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-get.yaml
+  - templates\plan-template.md:116 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-get.yaml
+- contracts/resource-create.yaml (2 occurrence(s))
+  - changes\2028-test-feature-script-validation\plan.md:115 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-create.yaml
+  - templates\plan-template.md:115 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-create.yaml
+- C:\\repo (2 occurrence(s))
+  - scripts\check-prerequisites.ps1:45 -> C:\\repo
+  - scripts\setup-plan.ps1:42 -> C:\\repo
+- specs/scripts/manual/audit-references.ps1 (2 occurrence(s))
+  - changes\codebase-consistency-todo.md:106 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references.ps1
+  - scripts\manual\README.md:204 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references.ps1
+- specs\templates\ (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:126 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+- specs\templates\plan-template.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:205 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+- src/models/user.ts (1 occurrence(s))
+  - templates\tasks-template.md:122 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\src\models\user.ts
+- test-placeholder-consistency.ps1 (1 occurrence(s))
+  - scripts\README.md:117 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\test-placeholder-consistency.ps1
+- specs/changes/001-mock-user-api/spec.md (1 occurrence(s))
+  - project.md:56 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-mock-user-api\spec.md
+- specs/scripts/archive/ (1 occurrence(s))
+  - scripts\README.md:198 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive\
+- specs/scripts/manual/audit-references-report.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:110 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references-report.ps1
+- WHEN/THEN (1 occurrence(s))
+  - scripts\validate.ps1:370 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\WHEN\THEN
+- src/validators/input.ts (1 occurrence(s))
+  - templates\tasks-template.md:123 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\src\validators\input.ts
+- specs/scripts/x.ps1 (1 occurrence(s))
+  - scripts\manual\audit-references.ps1:239 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\x.ps1
+- specs\scripts\validate.ps1 (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:98 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+- specs\changes\001-mock-user-api\plan.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:204 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-mock-user-api\plan.md
+- specs/scripts/script-name.ps1 (1 occurrence(s))
+  - templates\agent-file-template.md:68 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\script-name.ps1
+- specs\\changes\\001-auth (1 occurrence(s))
+  - scripts\list-features.ps1:55 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\\changes\\001-auth
+- specs/changes/id (1 occurrence(s))
+  - scripts\archive-feature.ps1:167 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\id
+- specs/plans (1 occurrence(s))
+  - scripts\update-agent-context.ps1:397 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\plans
+- specs/scripts/setup-document.ps1 (1 occurrence(s))
+  - README.md:18 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-document.ps1
+- specs/changes/markdown-normalization-todo.md (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:756 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\markdown-normalization-todo.md
+- specs/data-model.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:108 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\data-model.md
+- specs/docs/MIGRATION-DOCUMENT-AGENT-STANDALONE.md (1 occurrence(s))
+  - README.md:106 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\docs\MIGRATION-DOCUMENT-AGENT-STANDALONE.md
+- specs/id (1 occurrence(s))
+  - scripts\archive-feature.ps1:167 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\id
+- specs/templates/checklist-template.md (1 occurrence(s))
+  - README.md:27 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\checklist-template.md
+- specs/memory/ (1 occurrence(s))
+  - scripts\manual\validate-paths.ps1:51 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\
+- specs/templates/agent-file-template.md (1 occurrence(s))
+  - README.md:29 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\agent-file-template.md
+- specs\scripts\common.ps1 (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:99 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+- specs/scripts/manual/ (1 occurrence(s))
+  - scripts\README.md:197 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\
+- populate-project.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:725 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\populate-project.ps1
+- SpecKit requires a feature branch (not main/master/develop (1 occurrence(s))
+  - scripts\check-prerequisites.ps1:126 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\SpecKit requires a feature branch (not main\master\develop
+- backend/src/ (1 occurrence(s))
+  - templates\tasks-template.md:137 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\backend\src\
+- artifact-registry.json (1 occurrence(s))
+  - scripts\README.md:161 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\artifact-registry.json
+- archive-feature.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:721 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\archive-feature.ps1
+- api/tests/ (1 occurrence(s))
+  - templates\tasks-template.md:138 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\api\tests\
+- api/src/ (1 occurrence(s))
+  - templates\tasks-template.md:137 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\api\src\
+- agent_stepStructureFormat.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:152 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_stepStructureFormat.md
+- 2ndanalysis.md (1 occurrence(s))
+  - scripts\create-new-feature.ps1:5 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\2ndanalysis.md
+- \`url\ (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:41 -> \`url\
+- \`path\ (1 occurrence(s))
+  - changes\pattern-inconsistency-report.md:216 -> \`path\
+- \`agent_formatting.md\ (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:36 -> \`agent_formatting.md\
+- \.specify/templates/ (1 occurrence(s))
+  - scripts\manual\validate-paths.ps1:50 -> \.specify/templates/
+- \.specify/scripts/ (1 occurrence(s))
+  - scripts\manual\validate-paths.ps1:49 -> \.specify/scripts/
+- \.specify/memory/ (1 occurrence(s))
+  - scripts\manual\validate-paths.ps1:51 -> \.specify/memory/
+- backend/tests/ (1 occurrence(s))
+  - templates\tasks-template.md:138 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\backend\tests\
+- \.git (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:234 -> \.git
+- (\d+)\s+insertion (1 occurrence(s))
+  - scripts\common.ps1:893 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\d+)\s+insertion
+- (\d+)\s+deletion (1 occurrence(s))
+  - scripts\common.ps1:895 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\d+)\s+deletion
+- .prompt.md (1 occurrence(s))
+  - scripts\generate-deltas.ps1:77 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.prompt.md
+- .instructions.md (1 occurrence(s))
+  - scripts\generate-deltas.ps1:77 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.instructions.md
+- .github\README.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:158 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\README.md
+- .github\agents\speckit.specify.agent.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:91 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.specify.agent.md
+- .github\agents\speckit.plan.agent.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:90 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.plan.agent.md
+- .github\agents\speckit.checklist.agent.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:92 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.checklist.agent.md
+- .github\agents\ (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:127 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+- .github/prompts/speckit.plan.prompt.md (1 occurrence(s))
+  - README.md:105 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\prompts\speckit.plan.prompt.md
+- .github/prompts/ (1 occurrence(s))
+  - README.md:105 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\prompts\
+- .github/agents/speckit.plan.agent.md (1 occurrence(s))
+  - README.md:104 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.plan.agent.md
+- .github/agents/speckit.constitution.agent.md (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:162 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.constitution.agent.md
+- (\r (1 occurrence(s))
+  - scripts\merge-deltas.ps1:242 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\r
+- speckit.constitution.agent.md (1 occurrence(s))
+  - scripts\manual\validate-paths.ps1:73 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.constitution.agent.md
+- C:\\repo\\specs\\changes\\001-auth (1 occurrence(s))
+  - scripts\list-features.ps1:55 -> C:\\repo\\specs\\changes\\001-auth
+- CHANGELOG.md (1 occurrence(s))
+  - scripts\merge-deltas.ps1:111 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\CHANGELOG.md
+- script-name.ps1 (1 occurrence(s))
+  - templates\agent-file-template.md:72 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\script-name.ps1
+- Run speckit.constitution agent or create specs/memory/constitution.md (1 occurrence(s))
+  - scripts\update-agent-context.ps1:228 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Run speckit.constitution agent or create specs\memory\constitution.md
+- research-template.md (1 occurrence(s))
+  - scripts\setup-plan.ps1:150 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\research-template.md
+- quickstart-template.md (1 occurrence(s))
+  - scripts\setup-plan.ps1:152 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\quickstart-template.md
+- proposal-template.md (1 occurrence(s))
+  - templates\README.md:34 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\proposal-template.md
+- workflow-guide.txt (1 occurrence(s))
+  - README.md:76 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\workflow-guide.txt
+- nSpecKit requires a feature branch (not main/master/develop (1 occurrence(s))
+  - scripts\check-prerequisites.ps1:133 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\nSpecKit requires a feature branch (not main\master\develop
+- nSee specs/memory/constitution.md for complete governance principles (1 occurrence(s))
+  - scripts\update-agent-context.ps1:474 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\nSee specs\memory\constitution.md for complete governance principles
+- Not specified (see specs/project.md (1 occurrence(s))
+  - scripts\update-agent-context.ps1:375 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Not specified (see specs\project.md
+- Normative language (MUST/SHALL/NEVER) present (1 occurrence(s))
+  - scripts\validate.ps1:380 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Normative language (MUST\SHALL\NEVER) present
+- Missing WHEN/THEN scenario language (1 occurrence(s))
+  - scripts\validate.ps1:374 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Missing WHEN\THEN scenario language
+- Missing normative language (MUST/SHALL/NEVER (1 occurrence(s))
+  - scripts\validate.ps1:384 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Missing normative language (MUST\SHALL\NEVER
+- ios/src/ (1 occurrence(s))
+  - templates\tasks-template.md:137 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\ios\src\
+- CacheKey.json (1 occurrence(s))
+  - scripts\common.ps1:654 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\CacheKey.json
+- Governance/tech (1 occurrence(s))
+  - scripts\update-agent-context.ps1:260 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Governance\tech
+- generate-deltas.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:722 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\generate-deltas.ps1
+- frontend/tests/ (1 occurrence(s))
+  - templates\tasks-template.md:138 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\frontend\tests\
+- frontend/src/ (1 occurrence(s))
+  - templates\tasks-template.md:137 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\frontend\src\
+- Feature not in specs/changes/ - verify state is intentional (1 occurrence(s))
+  - scripts\validate.ps1:355 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Feature not in specs\changes\ - verify state is intentional
+- Feature is in proposal state (specs/changes/ (1 occurrence(s))
+  - scripts\validate.ps1:348 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Feature is in proposal state (specs\changes\
+- docs/speckit/architecture/ADR-0001-multi-agent-pipeline.md (1 occurrence(s))
+  - scripts\list-features.ps1:95 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0001-multi-agent-pipeline.md
+- docs/speckit/agents/speckit.constitution.agent.md (1 occurrence(s))
+  - scripts\update-agent-context.ps1:63 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\agents\speckit.constitution.agent.md
+- docs/openspec/ARCHITECTURE_OVERVIEW.md (1 occurrence(s))
+  - templates\proposal-template.example.md:9 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\openspec\ARCHITECTURE_OVERVIEW.md
+- delta-template.md (1 occurrence(s))
+  - templates\README.md:16 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\delta-template.md
+- data-model-template.md (1 occurrence(s))
+  - scripts\setup-plan.ps1:151 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\data-model-template.md
+- create-new-feature.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:720 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\create-new-feature.ps1
+- checklists/ (1 occurrence(s))
+  - scripts\check-prerequisites.ps1:176 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\checklists\
+- changes/proposal.md (1 occurrence(s))
+  - scripts\generate-proposal.ps1:39 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\proposal.md
+- generate-proposal.ps1 (1 occurrence(s))
+  - changes\codebase-consistency-todo.md:723 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\generate-proposal.ps1
+- .agent/rules/governance.md (1 occurrence(s))
+  - changes\markdown-normalization-todo.md:155 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.agent\rules\governance.md
+
+References per file (up to 50 each):
+- changes\2028-test-feature-script-validation\plan.md : 6 reference(s)
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] contracts/resource-list.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-list.yaml
+    [X] contracts/resource-create.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-create.yaml
+    [X] contracts/resource-get.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-get.yaml
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] requirements.txt -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\2028-test-feature-script-validation\requirements.txt
+- changes\codebase-consistency-todo.md : 80 reference(s)
+    [OK] c:\Users\raze0\Documents\awesome-copilot\shes\hybrid -> c:\Users\raze0\Documents\awesome-copilot\shes\hybrid
+    [X] specs/changes/pattern-inconsistency-report.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\pattern-inconsistency-report.md
+    [X] task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\merge-deltas.ps1
+    [X] specs/scripts/manual/audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references.ps1
+    [X] specs/scripts/manual/audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references-report.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] .github/agents/task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] .github/agents/speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+    [X] .github/agents/speckit.constitution.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.constitution.agent.md
+    [X] specs/scripts/README.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github/agents/speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] .github/agents/task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+    ... (truncated; increase -MaxRefsPerFile to see more)
+- changes\markdown-normalization-todo.md : 77 reference(s)
+    [OK] c:\Users\raze0\Documents\awesome-copilot\shes\hybrid -> c:\Users\raze0\Documents\awesome-copilot\shes\hybrid
+    [X] .github\agents\markdownGuide.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownGuide.md
+    [X] markdownGuide.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+    [X] \`agent_formatting.md\ -> \`agent_formatting.md\
+    [X] agent_formatting.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+    [X] agent_formatting.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+    [X] .github\agents\markdownForm.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownForm.agent.md
+    [X] markdownForm.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownForm.agent.md
+    [X] \`url\ -> \`url\
+    [X] .github\agents\speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+    [X] speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+    [X] .github\copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+    [X] copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+    [X] .github\copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+    [X] copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+    [X] .github\agents\task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+    [X] .github\agents\speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+    [X] .github\agents\speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+    [X] speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+    [X] .github\agents\speckit.plan.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.plan.agent.md
+    [X] .github\agents\speckit.specify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.specify.agent.md
+    [X] speckit.specify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.specify.agent.md
+    [X] .github\agents\speckit.checklist.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.checklist.agent.md
+    [X] speckit.checklist.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.checklist.agent.md
+    [X] specs\scripts\validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] specs\scripts\common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] .github\agents\task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+    [X] specs/data-model.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\data-model.md
+    [X] .github\agents\speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+    [X] .github\agents\speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.implement.agent.md
+    [X] speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.implement.agent.md
+    [X] specs\templates\ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github\agents\ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] .github\agents\task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\speckit.tasks.agent.md
+    [X] task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+    [X] .github\agents\task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\task.md
+    [X] task.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\task.md
+    [X] markdownGuide.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+    [X] .github\agents\markdownGuide.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\markdownGuide.md
+    [X] markdownGuide.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\markdownGuide.md
+    [X] agent_formatting.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_formatting.md
+    [X] agent_stepStructureFormat.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\agent_stepStructureFormat.md
+    [X] .agent/rules/governance.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.agent\rules\governance.md
+    ... (truncated; increase -MaxRefsPerFile to see more)
+- changes\pattern-inconsistency-report.md : 44 reference(s)
+    [OK] c:\Users\raze0\Documents\awesome-copilot\shes\hybrid -> c:\Users\raze0\Documents\awesome-copilot\shes\hybrid
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\common.ps1
+    [X] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\merge-deltas.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\audit-references.ps1
+    [X] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\audit-references-report.ps1
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] specs/scripts/setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-plan.ps1
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] try/catch -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\try\catch
+    [X] validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate-paths.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\validate.ps1
+    [X] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\setup-plan.ps1
+    [X] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\setup-plan.ps1
+    [X] try/catch -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\try\catch
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\list-features.ps1
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\update-agent-context.ps1
+    [X] \`path\ -> \`path\
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] specs\changes -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+    [X] copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\copilot-instructions.md
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/scripts/merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\merge-deltas.ps1
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+- changes\README.md : 24 reference(s)
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/scripts/check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+    [X] specs/scripts/list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+- project.md : 4 reference(s)
+    [X] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\validate.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/changes/001-mock-user-api/spec.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-mock-user-api\spec.md
+- README.md : 34 reference(s)
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/scripts/common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\common.ps1
+    [X] specs/scripts/check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/scripts/setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-plan.ps1
+    [X] specs/scripts/setup-document.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\setup-document.ps1
+    [X] specs/scripts/validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\validate.ps1
+    [X] specs/scripts/archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+    [X] specs/scripts/list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/templates/spec-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\spec-template.md
+    [X] specs/templates/plan-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+    [X] specs/templates/tasks-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\tasks-template.md
+    [X] specs/templates/checklist-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\checklist-template.md
+    [X] specs/templates/proposal-template.example.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\proposal-template.example.md
+    [X] specs/templates/agent-file-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\agent-file-template.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/scripts/archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive-feature.ps1
+    [X] workflow-guide.txt -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\workflow-guide.txt
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] .github/agents/speckit.plan.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.plan.agent.md
+    [X] .github/prompts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\prompts\
+    [X] .github/prompts/speckit.plan.prompt.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\prompts\speckit.plan.prompt.md
+    [X] specs/docs/MIGRATION-DOCUMENT-AGENT-STANDALONE.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\docs\MIGRATION-DOCUMENT-AGENT-STANDALONE.md
+    [X] specs/scripts/audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\audit-references.ps1
+- scripts\archive-feature.ps1 : 41 reference(s)
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/changes/archive/YYYY-MM-DD- -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\YYYY-MM-DD-
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/changes/id -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\id
+    [X] specs/id -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\id
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [X] specs/changes/archive/YYYY-MM-DD- -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\YYYY-MM-DD-
+    [X] deltas.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\deltas.md
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [X] deltas.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\deltas.md
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [OK] generate-proposal.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\generate-proposal.ps1
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+- scripts\check-prerequisites.ps1 : 20 reference(s)
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [X] C:\\repo -> C:\\repo
+    [X] feat/new-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\feat\new-feature
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [OK] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\check-prerequisites.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/memory -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+    [X] SpecKit requires a feature branch (not main/master/develop -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\SpecKit requires a feature branch (not main\master\develop
+    [X] nSpecKit requires a feature branch (not main/master/develop -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\nSpecKit requires a feature branch (not main\master\develop
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [X] checklists/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\checklists\
+- scripts\common.ps1 : 21 reference(s)
+    [X] specs/scripts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs\changes -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] setup-document.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] setup-document.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [X] CacheKey.json -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\CacheKey.json
+    [X] (\d+)\s+insertion -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\d+)\s+insertion
+    [X] (\d+)\s+deletion -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\d+)\s+deletion
+- scripts\create-new-feature.ps1 : 10 reference(s)
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] 2ndanalysis.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\2ndanalysis.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+- scripts\generate-deltas.ps1 : 5 reference(s)
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] .instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.instructions.md
+    [X] .prompt.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.prompt.md
+- scripts\generate-proposal.ps1 : 16 reference(s)
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [OK] generate-proposal.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\generate-proposal.ps1
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] specs/templates/proposal-template.example.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\proposal-template.example.md
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] changes/proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\changes\proposal.md
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [OK] generate-proposal.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\generate-proposal.ps1
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [X] specs/001-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\001-feature
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\proposal.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+- scripts\list-features.ps1 : 15 reference(s)
+    [OK] list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\list-features.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/archive/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\
+    [X] C:\\repo\\specs\\changes\\001-auth -> C:\\repo\\specs\\changes\\001-auth
+    [X] specs\\changes\\001-auth -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\\changes\\001-auth
+    [X] specs/scripts/list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\list-features.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [X] docs/speckit/architecture/ADR-0001-multi-agent-pipeline.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0001-multi-agent-pipeline.md
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+- scripts\manual\analyze-markdown-links.ps1 : 1 reference(s)
+    [OK] analyze-markdown-links.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\analyze-markdown-links.ps1
+- scripts\manual\audit-references-report.ps1 : 19 reference(s)
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [X] report.txt -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\report.txt
+    [X] specs/scripts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\common.ps1
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\common.ps1
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] specs/scripts/audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\audit-references.ps1
+- scripts\manual\audit-references.ps1 : 19 reference(s)
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\common.ps1
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\common.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [X] specs/changes -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+    [X] specs/scripts/x.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\x.ps1
+    [X] specs/changes/archive/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\archive\
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] specs/changes -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes
+- scripts\manual\README.md : 30 reference(s)
+    [OK] analyze-markdown-links.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\analyze-markdown-links.ps1
+    [OK] analyze-markdown-links.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\analyze-markdown-links.ps1
+    [OK] analyze-markdown-links.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\analyze-markdown-links.ps1
+    [OK] analyze-markdown-links.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\analyze-markdown-links.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [X] report.txt -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\report.txt
+    [X] specs/scripts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [OK] validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\validate-paths.ps1
+    [X] specs/scripts/README.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+    [X] specs/scripts/manual/audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\audit-references.ps1
+    [OK] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references-report.ps1
+    [OK] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\audit-references.ps1
+    [X] specs/scripts/README.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\README.md
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+- scripts\manual\test-placeholder-consistency.ps1 : 3 reference(s)
+    [OK] test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\test-placeholder-consistency.ps1
+    [OK] test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\test-placeholder-consistency.ps1
+    [OK] test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\test-placeholder-consistency.ps1
+- scripts\manual\validate-paths.ps1 : 22 reference(s)
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] hybrid/specs/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [X] hybrid/specs/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+    [X] \.specify/scripts/ -> \.specify/scripts/
+    [X] Wrong workspace - .specify/ is in root, not hybrid -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Wrong workspace - .specify\ is in root, not hybrid
+    [X] \.specify/templates/ -> \.specify/templates/
+    [X] Wrong workspace - .specify/ is in root, not hybrid -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Wrong workspace - .specify\ is in root, not hybrid
+    [X] \.specify/memory/ -> \.specify/memory/
+    [X] specs/memory/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\
+    [X] speckit.specify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.specify.agent.md
+    [X] speckit.clarify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.clarify.agent.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.tasks.agent.md
+    [X] speckit.checklist.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.checklist.agent.md
+    [X] speckit.taskstoissues.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.taskstoissues.agent.md
+    [X] speckit.analyze.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.analyze.agent.md
+    [X] speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.implement.agent.md
+    [X] speckit.archive.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.archive.agent.md
+    [X] speckit.document.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.document.agent.md
+    [X] speckit.constitution.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\manual\speckit.constitution.agent.md
+- scripts\merge-deltas.ps1 : 6 reference(s)
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] CHANGELOG.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\CHANGELOG.md
+    [X] V.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\V.md
+    [X] V.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\V.md
+    [X] (\r -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\(\r
+- scripts\populate-project.ps1 : 6 reference(s)
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+- scripts\README.md : 43 reference(s)
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/markdown-normalization -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\markdown-normalization
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] speckit.checklist.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.checklist.agent.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [X] speckit.specify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.specify.agent.md
+    [X] setup-document.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+    [X] speckit.document.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.document.agent.md
+    [OK] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-plan.ps1
+    [OK] archive-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\archive-feature.ps1
+    [X] speckit.archive.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\speckit.archive.agent.md
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [OK] ./manual/validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\validate-paths.ps1
+    [X] validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+    [OK] ./manual/validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\validate-paths.ps1
+    [OK] ./manual/validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\validate-paths.ps1
+    [OK] ./manual/test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\test-placeholder-consistency.ps1
+    [X] test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\test-placeholder-consistency.ps1
+    [OK] ./manual/test-placeholder-consistency.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\test-placeholder-consistency.ps1
+    [X] validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+    [X] hybrid/specs/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\hybrid\specs\
+    [X] .github/agents -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] artifact-registry.json -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\artifact-registry.json
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [X] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references.ps1
+    [X] audit-references-report.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references-report.ps1
+    [X] audit-references.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\audit-references.ps1
+    [X] validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate-paths.ps1
+    [OK] generate-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\generate-deltas.ps1
+    [OK] generate-proposal.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\generate-proposal.ps1
+    [OK] list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\list-features.ps1
+    [OK] merge-deltas.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\merge-deltas.ps1
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [OK] populate-project.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\populate-project.ps1
+    [X] run-gates.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\run-gates.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/scripts/manual/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\manual\
+    [X] specs/scripts/archive/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\archive\
+    [OK] ./manual/validate-paths.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\.\manual\validate-paths.ps1
+- scripts\setup-plan.ps1 : 17 reference(s)
+    [OK] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-plan.ps1
+    [OK] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-plan.ps1
+    [X] C:\\repo -> C:\\repo
+    [X] feat/new-feature -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\feat\new-feature
+    [OK] setup-plan.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-plan.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/templates/plan-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [OK] create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\create-new-feature.ps1
+    [X] specs/templates -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+    [X] research-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\research-template.md
+    [X] data-model-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\data-model-template.md
+    [X] quickstart-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\quickstart-template.md
+- scripts\update-agent-context.ps1 : 42 reference(s)
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] .github/copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+    [X] .github/copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+    [X] specs/scripts/update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\update-agent-context.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [X] docs/speckit/architecture/ADR-0002-file-based-state.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\architecture\ADR-0002-file-based-state.md
+    [X] docs/speckit/agents/speckit.constitution.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\agents\speckit.constitution.agent.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] docs/speckit/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\speckit\ARCHITECTURE_OVERVIEW.md
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [X] .github/copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\copilot-instructions.md
+    [OK] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\update-agent-context.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] setup-document.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\setup-document.ps1
+    [X] copilot-instructions.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\copilot-instructions.md
+    [X] Run speckit.constitution agent or create specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Run speckit.constitution agent or create specs\memory\constitution.md
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] Governance/tech -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Governance\tech
+    [X] Not specified (see specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Not specified (see specs\project.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/plans -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\plans
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] nSee specs/memory/constitution.md for complete governance principles -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\nSee specs\memory\constitution.md for complete governance principles
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+- scripts\validate.ps1 : 57 reference(s)
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/changes/001-feature/spec.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/changes/001-feature/spec.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/changes/001-feature/spec.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/changes/001-feature/spec.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\001-feature\spec.md
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [OK] validate.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\validate.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [OK] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\common.ps1
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] Feature is in proposal state (specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Feature is in proposal state (specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] Feature not in specs/changes/ - verify state is intentional -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Feature not in specs\changes\ - verify state is intentional
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] WHEN/THEN -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\WHEN\THEN
+    [X] Missing WHEN/THEN scenario language -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Missing WHEN\THEN scenario language
+    [X] Normative language (MUST/SHALL/NEVER) present -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Normative language (MUST\SHALL\NEVER) present
+    [X] Missing normative language (MUST/SHALL/NEVER -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\Missing normative language (MUST\SHALL\NEVER
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/templates/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [X] specs/scripts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts
+    [X] run-gates.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\scripts\run-gates.ps1
+    [X] specs/memory -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/templates -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates
+    [X] specs/memory -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory
+    ... (truncated; increase -MaxRefsPerFile to see more)
+- templates\agent-file-template.md : 15 reference(s)
+    [X] update-agent-context.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\update-agent-context.ps1
+    [X] specs/scripts/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\
+    [X] specs/scripts/script-name.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\script-name.ps1
+    [X] script-name.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\script-name.ps1
+    [X] specs/scripts/check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\check-prerequisites.ps1
+    [X] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\check-prerequisites.ps1
+    [X] speckit.specify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.specify.agent.md
+    [X] speckit.clarify.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.clarify.agent.md
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.tasks.agent.md
+    [X] speckit.checklist.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.checklist.agent.md
+    [X] speckit.implement.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.implement.agent.md
+    [X] speckit.document.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.document.agent.md
+    [X] speckit.analyze.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.analyze.agent.md
+    [X] speckit.archive.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.archive.agent.md
+    [X] speckit.taskstoissues.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.taskstoissues.agent.md
+- templates\plan-template.md : 6 reference(s)
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] contracts/resource-list.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-list.yaml
+    [X] contracts/resource-create.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-create.yaml
+    [X] contracts/resource-get.yaml -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\contracts\resource-get.yaml
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] requirements.txt -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\requirements.txt
+- templates\proposal-template.example.md : 2 reference(s)
+    [X] docs/openspec/ARCHITECTURE_OVERVIEW.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\docs\openspec\ARCHITECTURE_OVERVIEW.md
+    [X] proposal.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\proposal.md
+- templates\README.md : 19 reference(s)
+    [OK] tasks-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\tasks-template.md
+    [OK] checklist-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\checklist-template.md
+    [OK] research-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\research-template.md
+    [OK] data-model-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\data-model-template.md
+    [OK] quickstart-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\quickstart-template.md
+    [X] delta-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\delta-template.md
+    [OK] agent-file-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\agent-file-template.md
+    [OK] proposal-template.example.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\proposal-template.example.md
+    [OK] agent-file-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\agent-file-template.md
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [OK] agent-file-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\agent-file-template.md
+    [X] .github/agents/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\
+    [OK] proposal-template.example.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\proposal-template.example.md
+    [X] proposal-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\proposal-template.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/templates/spec-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\spec-template.md
+    [X] specs/scripts/create-new-feature.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\scripts\create-new-feature.ps1
+    [X] specs/templates/plan-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\plan-template.md
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+- templates\tasks-template.md : 29 reference(s)
+    [X] check-prerequisites.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\check-prerequisites.ps1
+    [X] common.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\common.ps1
+    [X] list-features.ps1 -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\list-features.ps1
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] .github/agents/speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\.github\agents\speckit.tasks.agent.md
+    [X] specs/templates/tasks-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\templates\tasks-template.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/memory/constitution.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\memory\constitution.md
+    [X] specs/project.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\project.md
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+    [X] speckit.tasks.agent.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\speckit.tasks.agent.md
+    [OK] tasks-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\tasks-template.md
+    [OK] tasks-template.md -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\tasks-template.md
+    [X] src/models/user.ts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\src\models\user.ts
+    [X] src/validators/input.ts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\src\validators\input.ts
+    [X] api/src/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\api\src\
+    [X] backend/src/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\backend\src\
+    [X] frontend/src/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\frontend\src\
+    [X] ios/src/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\ios\src\
+    [X] api/tests/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\api\tests\
+    [X] backend/tests/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\backend\tests\
+    [X] frontend/tests/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\frontend\tests\
+    [X] .test.ts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\.test.ts
+    [X] .test.ts -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\templates\.test.ts
+    [X] specs/changes/ -> C:\Users\raze0\Documents\awesome-copilot\shes\hybrid\specs\specs\changes\
+

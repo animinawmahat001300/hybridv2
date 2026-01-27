@@ -1,0 +1,90 @@
+openapi: 3.0.3
+info:
+  title: Workflow audit - Create entry
+  version: 1.0.0
+paths:
+  /api/workflow-audit:
+    post:
+      summary: Record a workflow audit entry
+      operationId: createWorkflowAuditEntry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WorkflowAuditEntryInput"
+      responses:
+        "201":
+          description: Audit entry recorded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WorkflowAuditEntry"
+        "400":
+          description: Invalid audit entry payload
+        "500":
+          description: Failed to append audit entry
+components:
+  schemas:
+    WorkflowAuditEntryInput:
+      type: object
+      required:
+        - script_name
+        - action
+        - outcome
+      properties:
+        script_name:
+          type: string
+        action:
+          type: string
+        change_id:
+          type: string
+          nullable: true
+        outcome:
+          type: string
+          enum:
+            - success
+            - failure
+        error_summary:
+          type: string
+          nullable: true
+        run_id:
+          type: string
+          nullable: true
+        duration_ms:
+          type: integer
+          minimum: 0
+          nullable: true
+    WorkflowAuditEntry:
+      type: object
+      required:
+        - timestamp
+        - script_name
+        - action
+        - outcome
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        script_name:
+          type: string
+        action:
+          type: string
+        change_id:
+          type: string
+          nullable: true
+        outcome:
+          type: string
+          enum:
+            - success
+            - failure
+        error_summary:
+          type: string
+          nullable: true
+        run_id:
+          type: string
+          nullable: true
+        duration_ms:
+          type: integer
+          minimum: 0
+          nullable: true

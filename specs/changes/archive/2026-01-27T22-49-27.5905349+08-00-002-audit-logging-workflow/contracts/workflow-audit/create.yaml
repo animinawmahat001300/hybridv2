@@ -1,0 +1,107 @@
+openapi: 3.0.3
+info:
+  title: Workflow Audit Log - Create Entry
+  version: 1.0.0
+paths:
+  /api/workflow-audit:
+    post:
+      summary: Append an audit log entry
+      description: Append a structured audit entry for workflow actions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuditLogEntry"
+      responses:
+        "201":
+          description: Audit entry appended
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuditLogAppendResponse"
+        "400":
+          description: Invalid request payload
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Failed to append audit entry
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    AuditLogEntry:
+      type: object
+      required:
+        - schema_version
+        - timestamp
+        - script_name
+        - action
+        - outcome
+      properties:
+        schema_version:
+          type: integer
+          example: 1
+        timestamp:
+          type: string
+          format: date-time
+        script_name:
+          type: string
+          maxLength: 120
+        action:
+          type: string
+          enum: [create, update, validate, archive, system]
+        change_id:
+          type: string
+          nullable: true
+          example: 002-audit-logging-workflow
+        outcome:
+          type: string
+          enum: [success, failure]
+        error_summary:
+          type: string
+          nullable: true
+          maxLength: 500
+        error_type:
+          type: string
+          nullable: true
+          maxLength: 120
+        duration_ms:
+          type: integer
+          nullable: true
+          minimum: 0
+        execution_id:
+          type: string
+          nullable: true
+          format: uuid
+        host:
+          type: string
+          nullable: true
+          maxLength: 120
+    AuditLogAppendResponse:
+      type: object
+      required:
+        - status
+      properties:
+        status:
+          type: string
+          enum: [appended]
+        entry:
+          $ref: "#/components/schemas/AuditLogEntry"
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        details:
+          type: string
+          nullable: true
