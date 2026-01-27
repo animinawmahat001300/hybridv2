@@ -3,7 +3,7 @@ description: Convert existing tasks into actionable, dependency-ordered GitHub i
 tools: ['github/github-mcp-server/issue_write']
 ---
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -11,7 +11,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Outline
+# Outline
 
 1. Run `specs/scripts/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks` from repo root.
 
@@ -48,5 +48,6 @@ git config --get remote.origin.url
 
 > [!CAUTION]
 > UNDER NO CIRCUMSTANCES EVER CREATE ISSUES IN REPOSITORIES THAT DO NOT MATCH THE REMOTE URL
+
 
 

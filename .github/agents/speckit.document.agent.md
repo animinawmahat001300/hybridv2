@@ -3,12 +3,6 @@ description: Feature Request Analyzer & Prompt Generator. Transforms vague user 
 tools: ['vscode/getProjectSetupInfo', 'read/problems', 'read/readFile', 'search', 'agent']
 ---
 
-## Agent Identity
-
-**Name**: speckit.document
-**Role**: Feature Request Analyzer & Prompt Generator
-**Trigger**: User invokes via `@speckit.document [feature request]`
-
 ## Core Responsibility
 
 Transform a vague user feature request into:

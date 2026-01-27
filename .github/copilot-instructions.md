@@ -1,7 +1,7 @@
 <!-- BEGIN SPECKIT AUTO -->
 # Copilot Context for hybridv2
 
-**Last Updated**: 2026-01-27T21:50:49.9468779+08:00
+**Last Updated**: 2026-01-28T00:31:34.0565637+08:00
 
 ## Project Overview
 
@@ -55,20 +55,6 @@ This project follows SpecKit Consolidated governance with spec-first development
 - Performance Goals: {E_G_200MS_P95_RESPONSE_60FPS_1000_REQ_S}
 - Constraints: {E_G_100MB_MEMORY_OFFLINE_CAPABLE_WCAG_21_AA}
 - Scale/Scope: {E_G_10K_USERS_1M_RECORDS_50_API_ENDPOINTS}
-- Language/Version: PowerShell 7.4+
-- Primary Dependencies: PowerShell core, .NET `System.IO`
-- Storage: File system (`specs/logs/workflow-audit.jsonl`)
-- Testing: Pester 5
-- Target Platform: PowerShell 7 on Windows and Linux runners
-- Project Type: Automation scripts
-- Performance Goals: Append audit entry p95 ≤ 50 ms; total runtime impact ≤ 10%; entries visible within 5 seconds for 95% of runs
-- Constraints: No external dependencies; create log directory if missing; sanitized error summaries only; append-only JSONL
-- Scale/Scope: Up to 5 concurrent workflow scripts; ~50k entries/year
-- Primary Dependencies: PowerShell core, .NET System.IO
-- Storage: File system (`specs/changes/`, `specs/changes/archive/`, `specs/logs/workflow-audit.jsonl`)
-- Performance Goals: Default output ≤ 30 lines; audit append p95 ≤ 50 ms; snapshot metadata write p95 ≤ 200 ms for 10k files
-- Constraints: No external dependencies; create log directory if missing; sanitized error summaries only; append-only JSONL; metadata-only snapshots
-- Scale/Scope: Up to 5 concurrent workflow scripts; ~50k audit entries/year; snapshot metadata for large workspaces
 
 
 ## Code Conventions
@@ -83,10 +69,7 @@ This project follows SpecKit Consolidated governance with spec-first development
 - File-based persistence
 
 ## Active Changes
-- 001-agent-seq-artifacts
-- 002-audit-logging-workflow
-- 003-workflow-audit-logging
-- 004-gitless-workflow-resilience
+- 001-workflow-smoke-test
 
 ## SpecKit Workflow
 
@@ -111,6 +94,7 @@ All features follow the 11-phase SpecKit workflow:
 - Changes: specs/changes/
 - SpecKit Agents: .github/agents/
 <!-- END SPECKIT AUTO -->
+
 
 
 

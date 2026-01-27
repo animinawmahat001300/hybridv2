@@ -10,7 +10,7 @@ handoffs:
     send: true
 ---
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -18,7 +18,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Outline
+# Outline
 
 The text the user typed after `/speckit.specify` in the triggering message **is** the feature description. Assume you always have it available in this conversation even if `$ARGUMENTS` appears literally below. Do not ask the user to repeat it unless they provided an empty command.
 
@@ -284,22 +284,22 @@ Given that feature description, do this:
 
 **NOTE:** The script creates and checks out the new branch and initializes the spec file before writing.
 
-# # General Guidelines
+# General Guidelines
 
-# # Quick Guidelines
+# Quick Guidelines
 
 - Focus on **WHAT** users need and **WHY**.
 - Avoid HOW to implement (no tech stack, APIs, code structure).
 - Written for business stakeholders, not developers.
 - DO NOT create any checklists that are embedded in the spec. That will be a separate command.
 
-## # Section Requirements
+## Section Requirements
 
 - **Mandatory sections**: Must be completed for every feature
 - **Optional sections**: Include only when relevant to the feature
 - When a section doesn't apply, remove it entirely (don't leave as "N/A")
 
-## # For AI Generation
+## For AI Generation
 
 When creating this spec from a user prompt:
 
@@ -324,7 +324,7 @@ When creating this spec from a user prompt:
 - Authentication method: Standard session-based or OAuth2 for web apps
 - Integration patterns: RESTful APIs unless specified otherwise
 
-## # Success Criteria Guidelines
+## Success Criteria Guidelines
 
 Success criteria must be:
 
@@ -349,7 +349,7 @@ Success criteria must be:
 
 ---
 
-# # Delta Spec Template
+# Delta Spec Template
 
 When modifying an existing capability, use this format for `specs/changes/{CHANGE_ID}/specs/{CAPABILITY}/spec.md`:
 
@@ -360,15 +360,15 @@ When modifying an existing capability, use this format for `specs/changes/{CHANG
 **Modifies**: `specs/{CAPABILITY}/spec.md`
 **Date**: {DATE}
 
-# # Summary
+# Summary
 
 {CHANGE_SUMMARY}
 
 ---
 
-# # ADDED Requirements
+# ADDED Requirements
 
-## # Requirement: {REQUIREMENT_NAME}
+## Requirement: {REQUIREMENT_NAME}
 
 **Description**: {REQUIREMENT_TEXT}
 
@@ -378,9 +378,9 @@ When modifying an existing capability, use this format for `specs/changes/{CHANG
 
 ---
 
-# # MODIFIED Requirements
+# MODIFIED Requirements
 
-## # Requirement: {REQUIREMENT_NAME}
+## Requirement: {REQUIREMENT_NAME}
 
 **Original**: (reference to original requirement in `specs/{CAPABILITY}/spec.md`)
 
@@ -395,9 +395,9 @@ When modifying an existing capability, use this format for `specs/changes/{CHANG
 
 ---
 
-# # REMOVED Requirements
+# REMOVED Requirements
 
-## # Requirement: {REQUIREMENT_NAME}
+## Requirement: {REQUIREMENT_NAME}
 
 **Original**: (reference to original requirement in `specs/{CAPABILITY}/spec.md`)
 
@@ -405,5 +405,6 @@ When modifying an existing capability, use this format for `specs/changes/{CHANG
 
 **Migration Notes**: {MIGRATION_NOTES}
 ```
+
 
 

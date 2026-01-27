@@ -6,14 +6,14 @@ handoffs:
     prompt: Create a plan for the spec. I am building with...
 ---
 
-# # Required Files
+# Required Files
 
 The following files must be present and accessible:
 - `specs/memory/constitution.md` - Governance principles and quality standards
 - `specs/project.md` - Technology stack and project conventions
 - `specs/changes/{CHANGE_ID}/spec.md` - Target specification file to clarify
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -21,7 +21,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Outline
+# Outline
 
 Goal: Detect and reduce ambiguity or missing decision points in the active feature specification and record the clarifications directly in the spec file.
 
@@ -216,5 +216,6 @@ Behavior rules:
 - If quota reached with unresolved high-impact categories remaining, explicitly flag them under Deferred with rationale.
 
 Context for prioritization: $ARGUMENTS
+
 
 
