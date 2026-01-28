@@ -6,7 +6,7 @@ handoffs:
     prompt: Implement the feature specification based on the updated constitution. I want to build...
 ---
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -14,7 +14,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Outline
+# Outline
 
 You are updating the project constitution. The primary constitution file is `specs/memory/constitution.md` (governance principles) and `specs/project.md` (concrete project details implementing those principles). Your job is to (a) collect/derive principle values, (b) update the constitution precisely, and (c) update project.md with concrete details, and (d) propagate any amendments across dependent artifacts.
 
@@ -83,5 +83,6 @@ If the user supplies partial updates (e.g., only one principle revision), still 
 If critical info missing (e.g., ratification date truly unknown), insert `TODO({FIELD_NAME}): explanation` and include in the Sync Impact Report under deferred items.
 
 Operate on `specs/memory/constitution.md` as the primary constitution file.
+
 
 

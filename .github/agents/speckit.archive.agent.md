@@ -2,7 +2,7 @@
 description: Promote a completed feature from specs/changes/ to the Source of Truth (specs/{CAPABILITY}/). Handles OpenSpec delta merging for ADDED, MODIFIED, and REMOVED sections.
 ---
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -12,7 +12,7 @@ You **MUST** consider the user input before proceeding (if not empty). The input
 
 ---
 
-# # Pre-Archive Checklist
+# Pre-Archive Checklist
 
 Before proceeding, verify ALL conditions are met:
 
@@ -29,9 +29,9 @@ If output is not empty, prompt user to commit or stash changes before continuing
 
 ---
 
-# # Outline
+# Outline
 
-## # 1. Locate Feature
+## 1. Locate Feature
 
 Identify the feature directory:
 ```powershell
@@ -50,7 +50,7 @@ if ($LASTEXITCODE -ne 0) {
 ```
 If `$LASTEXITCODE -ne 0`, **STOP** workflow immediately and report error with context.
 
-## # 2. Verify Completion
+## 2. Verify Completion
 
 Check all tasks are complete before archiving:
 
@@ -70,7 +70,7 @@ Verify required artifacts exist:
 - `specs/changes/{CHANGE_ID}/plan.md` (implementation plan)
 - `specs/changes/{CHANGE_ID}/tasks.md` (task tracker)
 
-## # 3. Run Pre-Archive Validation
+## 3. Run Pre-Archive Validation
 
 Execute strict validation before archiving:
 ```powershell
@@ -82,7 +82,7 @@ if ($LASTEXITCODE -ne 0) {
 
 **Validation**: Check script exit code. If `$LASTEXITCODE -ne 0`, **STOP** workflow immediately. Report error with context: script name, exit code, and any error output. Do NOT proceed to archiving until validation passes.
 
-## # 4. Check for Delta Specs
+## 4. Check for Delta Specs
 
 Determine if feature has OpenSpec delta specifications:
 ```powershell
@@ -92,7 +92,7 @@ $HasDeltaSpecs = Test-Path $DeltaSpecsDir
 
 If `$HasDeltaSpecs` is `$true`, delta merge will occur during archive.
 
-## # 5. Execute Archive
+## 5. Execute Archive
 
 Call the archive script to perform the promotion:
 ```powershell
@@ -110,7 +110,7 @@ Available flags:
 - `-SkipMerge`: Skip delta spec merging
 - `-WhatIf`: Dry-run to preview changes
 
-## # 6. Post-Archive Validation
+## 6. Post-Archive Validation
 
 After archiving, verify the merge was successful:
 ```powershell
@@ -126,11 +126,11 @@ Confirm target capability specs are updated in `specs/{CAPABILITY}/spec.md`.
 
 ---
 
-# # OpenSpec Delta Merge Logic
+# OpenSpec Delta Merge Logic
 
 When `specs/changes/{CHANGE_ID}/specs/` exists, the archive script performs delta merging:
 
-## # Delta Section Types
+## Delta Section Types
 
 | Section Header | Action | Target |
 |----------------|--------|--------|
@@ -138,7 +138,7 @@ When `specs/changes/{CHANGE_ID}/specs/` exists, the archive script performs delt
 | `## MODIFIED Requirements` | Replace matching section in main spec | `specs/{CAPABILITY}/spec.md` |
 | `## REMOVED Requirements` | Comment out in main spec (preserves history) | `specs/{CAPABILITY}/spec.md` |
 
-## # Merge Behavior by Type
+## Merge Behavior by Type
 
 **ADDED Sections**:
 - Content appended to end of target spec
@@ -157,35 +157,35 @@ When `specs/changes/{CHANGE_ID}/specs/` exists, the archive script performs delt
 - Removal markers: `<!-- REMOVED from {CHANGE_ID} on {DATE}` ... `-->`
 - Preserves history for audit trail
 
-## # Delta Spec Structure
+## Delta Spec Structure
 
 Delta specs in `specs/changes/{CHANGE_ID}/specs/{CAPABILITY}/spec.md` must follow:
 
 ```markdown
-# # ADDED Requirements
+# ADDED Requirements
 
-## # Requirement: New-Feature-Name
+## Requirement: New-Feature-Name
 
 WHEN user performs action
 THE SYSTEM SHALL respond with expected behavior
 
-# # MODIFIED Requirements
+# MODIFIED Requirements
 
-## # Requirement: Existing-Feature-Name
+## Requirement: Existing-Feature-Name
 
 WHEN user performs updated action
 THE SYSTEM SHALL respond with updated behavior
 
-# # REMOVED Requirements
+# REMOVED Requirements
 
-## # Requirement: Deprecated-Feature-Name
+## Requirement: Deprecated-Feature-Name
 
 (Reason for removal documented here)
 ```
 
 ---
 
-# # Delta Transformation Rules
+# Delta Transformation Rules
 
 When converting `specs/changes/{CHANGE_ID}/spec.md` to delta format:
 
@@ -201,7 +201,7 @@ When converting `specs/changes/{CHANGE_ID}/spec.md` to delta format:
 
 ---
 
-# # Archive Output
+# Archive Output
 
 The archive script produces:
 
@@ -229,27 +229,27 @@ The archive script produces:
 
 ---
 
-# # Completion Report Template
+# Completion Report Template
 
 After successful archive, report:
 
 ```text
-# # Archive Complete: {CHANGE_ID}
+# Archive Complete: {CHANGE_ID}
 
-## # Summary
+## Summary
 - **Feature ID**: {CHANGE_ID}
 - **Archive Location**: specs/changes/archive/{YYYY_MM_DD}-{CHANGE_ID}/
 - **Validation Status**: PASSED
 
-## # Delta Specs Merged
+## Delta Specs Merged
 - specs/{CAPABILITY_1}/spec.md (ADDED: 2 requirements)
 - specs/{CAPABILITY_2}/spec.md (MODIFIED: 1 requirement, REMOVED: 1 requirement)
 
-## # Task Completion
+## Task Completion
 - Total Tasks: {N}
 - Completed: {N}
 
-## # Next Steps
+## Next Steps
 1. Review merged specs in `specs/{CAPABILITY}/spec.md` for accuracy
 2. Update dependent documentation if needed
 3. Notify stakeholders of feature completion
@@ -258,7 +258,7 @@ After successful archive, report:
 
 ---
 
-# # Archive Flow
+# Archive Flow
 
 ```mermaid
 flowchart TD
@@ -281,7 +281,7 @@ flowchart TD
 
 ---
 
-# # Error Handling
+# Error Handling
 
 | Error | Resolution |
 |-------|------------|
@@ -290,5 +290,6 @@ flowchart TD
 | Incomplete tasks | Mark remaining tasks `[X]` in `tasks.md` or use `-Force` (not recommended) |
 | Delta merge conflict | Review merge markers in target spec; manual resolution may be needed |
 | Git uncommitted changes | Commit or stash changes: `git stash` |
+
 
 

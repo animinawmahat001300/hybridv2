@@ -1,7 +1,7 @@
 <!-- BEGIN SPECKIT AUTO -->
 # Copilot Context for hybridv2
 
-**Last Updated**: 2026-01-28T05:10:55.9635610+08:00
+**Last Updated**: 2026-01-28T00:31:34.0565637+08:00
 
 ## Project Overview
 
@@ -46,15 +46,15 @@ This project follows SpecKit Consolidated governance with spec-first development
 
 
 ### Feature-Specific Tech Constraints
-- Language/Version: PowerShell 7.0+
-- Primary Dependencies: None (core PowerShell only)
-- Storage: N/A (stateless, in-memory)
-- Testing: Pester 5
-- Target Platform: Windows, Linux, macOS (PowerShell 7+)
-- Project Type: Single module
-- Performance Goals: Instant response (<50ms per calculation)
-- Constraints: No external dependencies, [double] numeric range
-- Scale/Scope: Single function, 9 requirements
+- Language/Version: {E_G_TYPESCRIPT_53_PYTHON_312_GO_121}
+- Primary Dependencies: {E_G_REACT_18_FASTAPI_GIN}
+- Storage: {E_G_POSTGRESQL_15_REDIS_FILE_SYSTEM_N_A}
+- Testing: {E_G_JEST_PYTEST_GO_TEST}
+- Target Platform: {E_G_LINUX_SERVER_BROWSER_CHROME_90_IOS_16}
+- Project Type: {SINGLE_WEB_MOBILE_API}
+- Performance Goals: {E_G_200MS_P95_RESPONSE_60FPS_1000_REQ_S}
+- Constraints: {E_G_100MB_MEMORY_OFFLINE_CAPABLE_WCAG_21_AA}
+- Scale/Scope: {E_G_10K_USERS_1M_RECORDS_50_API_ENDPOINTS}
 
 
 ## Code Conventions
@@ -69,8 +69,7 @@ This project follows SpecKit Consolidated governance with spec-first development
 - File-based persistence
 
 ## Active Changes
-- 002-simple-calculator
-- 003-simple-calculator
+- 001-workflow-smoke-test
 
 ## SpecKit Workflow
 
@@ -95,10 +94,6 @@ All features follow the 11-phase SpecKit workflow:
 - Changes: specs/changes/
 - SpecKit Agents: .github/agents/
 <!-- END SPECKIT AUTO -->
-
-
-
-
 
 
 

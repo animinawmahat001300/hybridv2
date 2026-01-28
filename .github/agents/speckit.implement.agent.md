@@ -9,13 +9,14 @@ handoffs:
     prompt: Re-analyze the implementation for consistency issues
 ---
 
-# # User Input
+# User Input
 
 ```text
     $ARGUMENTS
 ```
 You **MUST** consider the user input before proceeding (if not empty).
-# # Outline
+
+# Outline
 1. From repo root, resolve the absolute script path and run prerequisites (prevents positional parsing issues when invoked from subfolders):
 
    ```powershell
@@ -268,5 +269,6 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Report final status with summary of completed work
 
 Note: This command assumes a complete task breakdown exists in `specs/changes/{CHANGE_ID}/tasks.md`. If tasks are incomplete or missing, suggest running `/speckit.tasks` first to regenerate the task list.
+
 
 

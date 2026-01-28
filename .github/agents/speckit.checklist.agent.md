@@ -2,7 +2,7 @@
 description: Generate a custom checklist for the current feature based on user requirements.
 ---
 
-# # Checklist Purpose: "Unit Tests for English"
+# Checklist Purpose: "Unit Tests for English"
 
 **CRITICAL CONCEPT**: Checklists are **UNIT TESTS FOR REQUIREMENTS WRITING** - they validate the quality, clarity, and completeness of requirements in a given domain.
 
@@ -23,7 +23,7 @@ description: Generate a custom checklist for the current feature based on user r
 
 **Metaphor**: If your spec is code written in English, the checklist is its unit test suite. You're testing whether the requirements are well-written, complete, unambiguous, and ready for implementation - NOT whether the implementation works.
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -31,7 +31,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Execution Steps
+# Execution Steps
 
 1. **Setup**: Run `specs/scripts/check-prerequisites.ps1 -Json` from repo root and parse JSON for FEATURE_DIR, CHANGE_ID, and AVAILABLE_DOCS list.
    - All file paths must be absolute.
@@ -258,7 +258,7 @@ You **MUST** consider the user input before proceeding (if not empty).
 
 To avoid clutter, use descriptive types and clean up obsolete checklists when done.
 
-# # Example Checklist Types & Sample Items
+# Example Checklist Types & Sample Items
 
 **UX Requirements Quality:** `ux.md`
 
@@ -301,7 +301,7 @@ Sample items:
 - "Are security requirements consistent with compliance obligations? [Consistency]"
 - "Are security failure/breach response requirements defined? [Gap, Exception Flow]"
 
-# # Anti-Examples: What NOT To Do
+# Anti-Examples: What NOT To Do
 
 **❌ WRONG - These test implementation, not requirements:**
 
@@ -331,5 +331,6 @@ Sample items:
 - Correct: Validation of requirement quality
 - Wrong: "Does it do X?"
 - Correct: "Is X clearly specified?"
+
 
 

@@ -11,7 +11,7 @@ handoffs:
     send: true
 ---
 
-# # User Input
+# User Input
 
 ```text
 $ARGUMENTS
@@ -19,7 +19,7 @@ $ARGUMENTS
 
 You **MUST** consider the user input before proceeding (if not empty).
 
-# # Outline
+# Outline
 
 1. **Setup**: From repo root, resolve the absolute script path and run prerequisites to avoid positional parsing errors:
 
@@ -314,13 +314,13 @@ Context for task generation: $ARGUMENTS
 
 `FEATURE_DIR/tasks.md` should be immediately executable - each task must be specific enough that an LLM can complete it without additional context.
 
-# # Task Generation Rules
+# Task Generation Rules
 
 **CRITICAL**: Tasks MUST be organized by user story to enable independent implementation and testing.
 
 **Tests are OPTIONAL**: Only generate test tasks if explicitly requested in the feature specification or if user requests TDD approach.
 
-## # Checklist Format (REQUIRED)
+## Checklist Format (REQUIRED)
 
 Every task MUST strictly follow this format:
 
@@ -352,7 +352,7 @@ Every task MUST strictly follow this format:
 - ❌ WRONG: `- [ ] [US1] Create User model` (missing Task ID)
 - ❌ WRONG: `- [ ] T001 [US1] Create model` (missing file path)
 
-## # Task Organization
+## Task Organization
 
 1. **From User Stories (`FEATURE_DIR/spec.md`)** - PRIMARY ORGANIZATION:
    - Each user story (P1, P2, P3...) gets its own phase
@@ -377,7 +377,7 @@ Every task MUST strictly follow this format:
    - Foundational/blocking tasks → Foundational phase (Phase 2)
    - Story-specific setup → within that story's phase
 
-## # Phase Structure
+## Phase Structure
 
 - **Phase 1**: Setup (project initialization)
 - **Phase 2**: Foundational (blocking prerequisites - MUST complete before user stories)
@@ -385,6 +385,7 @@ Every task MUST strictly follow this format:
   - Within each story: Tests (if requested) → Models → Services → Endpoints → Integration
   - Each phase should be a complete, independently testable increment
 - **Final Phase**: Polish & Cross-Cutting Concerns
+
 
 
 
